@@ -3,7 +3,7 @@ services:
   api:
     image: filipecabral/api-ts
     ports:
-      - "6000:3050"
+      - "80:3050"
     links:
       - link-db
   link-db:
